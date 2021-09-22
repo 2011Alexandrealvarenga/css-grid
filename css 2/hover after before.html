@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+  <style>
+    h1{
+      text-align: center;
+    }
+    
+    .box::after{
+      content: '';
+      margin: 5px auto;
+      background: green;
+      display: block;
+      height: 7px;
+      width: 50%;
+      transition: 1s;
+    }
+    .box:hover::after{
+      content: '';
+      margin: 5px auto;
+      background: red;
+      display: block;
+      height: 2px;
+      width: 30%;
+      transition: 1s;
+    }
+  </style>
+<body>
+ <div class="box">
+    <h1>Lorem ipsum dolor sit amet.</h1>
+ </div>
+
+  
+  
+</body>
+</html>

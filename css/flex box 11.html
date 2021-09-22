@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+  <style>
+  #conteudo{
+    background: #dcdcdc;
+    width: 600px;
+    height: 400px;
+    display: flex;
+
+    /*row/row-reverse/column/column-reverse*/
+    flex-direction: row;
+    /*nowrap|wrap|wrap-reverse*/
+     flex-wrap: wrap;
+     /*flex-start|flex-end|conter|space-between|space-around*/
+     justify-content: space-around;
+     /*stretch|center|flex-start|flex-end|baseline*/
+     align-items: baseline;
+  }
+  .item{
+    width: 100px;
+    height: 100px;
+    margin:10px;
+    background: #fff;
+    border: 1px solid gray;
+
+  }
+  .ordem1{
+    order: 1;
+  }
+  .ordem2{
+    order: 2;
+  }
+  .ordem3{
+    order: 3;
+  }
+  .ordem4{
+    order: 4;
+  }
+</style>
+<body>
+  <h1>flexbox</h1>
+  <div id="conteudo">
+    <div class="item ordem3">01</div>
+    <div class="item ordem2">02</div>
+    <div class="item ordem1">03</div>
+    <div class="item ordem4">04</div>
+  </div>
+</body>
+</html>
