@@ -1,0 +1,128 @@
+<html lang="en"><head>
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  <title>CodePen - Collapse other sections when one is expanded</title>
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+  
+<style>
+p {
+  margin-top: 50px;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no">
+  <section class="duvidas" id="myGroup2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-5">
+          <hr />
+          <p class="title">Tem dúvidas sobre os Seguros para Automóveis Tokio Marine?</p>
+          <p class="description">Se você tiver dúvidas sobre o Seguro Auto acesse as Condições Gerais abaixo:</p>
+          <a
+            href="http://wwd.tokiomarine.com.br/condicoes-gerais/automovel/"
+            rel="noopener"
+            class="btn btn-condicoes-gerais"
+            alt="Condições gerais e guias de serviços dos Seguros Automóveis"
+            title="ir para Condições gerais e guias de serviços dos Seguros Automóveis"
+          >
+            <div>
+              <img
+                src="http://wwd.tokiomarine.com.br/wp-content/themes/theme-institucional/assets/icons/common/condicoes-gerais.svg"
+                alt="Condições Gerais e Guias de Serviços Automóvel tokio marine"
+                title="Condições Gerais e Guias de Serviços Automóvel"
+              />
+            </div>
+            <div>Condições Gerais e Guias de Serviços Automóvel</div>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <div itemscope="" itemtype="https://schema.org/FAQPage">
+            <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                                             
+              <div class="question" data-toggle="collapse" data-target="#custom-collapse-0" aria-expanded="false" aria-controls="custom-collapse-0">
+                <span itemprop="name">
+                  lorem 1
+                </span>
+                <img src="http://wwd.tokiomarine.com.br/wp-content/themes/theme-institucional/assets/icons/pages/landing-pages/common/duvidas-indicador.svg" alt="Clique para ver a resposta" title="Clique para ver a resposta - Tokio Marine" />
+              </div>
+                                      
+              <div class="answer collapse" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="custom-collapse-0" data-parent="#myGroup2">
+                <div itemprop="text">
+                  resposta 1
+                </div>
+              </div>
+            </div>
+
+            <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+                                             
+              <div class="question" data-toggle="collapse" data-target="#custom-collapse-1" aria-expanded="false" aria-controls="custom-collapse-1">
+                <span itemprop="name">
+                 lorem 2
+                </span>
+                <img src="http://wwd.tokiomarine.com.br/wp-content/themes/theme-institucional/assets/icons/pages/landing-pages/common/duvidas-indicador.svg" alt="Clique para ver a resposta" title="Clique para ver a resposta - Tokio Marine" />
+              </div>
+                                      
+              <div class="answer collapse" itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="custom-collapse-1" data-parent="#myGroup2">
+                <div itemprop="text">
+                  resposta 2
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- <div class="container" id="myGroup">
+    <p>
+        <a class="btn btn-primary collapsed" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            content 1
+        </a>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="true" aria-controls="collapseExample2">
+            Content 2
+        </button>
+    </p>
+
+    <div class="collapse" id="collapseExample" data-parent="#myGroup" style="">
+        <div class="card card-body">
+            Content one here
+        </div>
+    </div>
+    <div class="collapse show" id="collapseExample2" data-parent="#myGroup" style="">
+        <div class="card card-body">
+            Content 2 here
+        </div>
+    </div>
+</div> -->
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+ 
+</body></html>
